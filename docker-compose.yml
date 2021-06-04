@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  motor-driver-api:
+    build: ./motor-driver-api
+    devices:
+      - "/dev/i2c-1"
+    ports:
+      - 80:80
