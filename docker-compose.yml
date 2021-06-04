@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   motor-driver-api:
-    build: ./motor-driver-api
+    build: ./
     devices:
       - "/dev/i2c-1"
     ports:
